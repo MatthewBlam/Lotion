@@ -1,0 +1,140 @@
+[
+  {
+    "general": {
+      "sort": ["str", "str"],
+      "cardSize": "str"
+    }
+  },
+  {
+    "columns": {
+      "column_title": {
+        "events": {
+          "event_title": {
+            "title": "str",
+            "description": "str",
+            "completed": "bool",
+            "date": {
+              "month": "str",
+              "day": "str"
+            },
+            "time": {
+              "hour": "str",
+              "minute": "str",
+              "ampm": "str"
+            },
+            "tags": [
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              },
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              }
+            ],
+            "starred": "bool",
+            "locked": "bool"
+          },
+          "event2_title": {
+            "title": "str",
+            "description": "str",
+            "completed": "bool",
+            "date": {
+              "month": "str",
+              "day": "str"
+            },
+            "time": {
+              "hour": "str",
+              "minute": "str",
+              "ampm": "str"
+            },
+            "tags": [
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              },
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              }
+            ],
+            "starred": "bool",
+            "locked": "bool"
+          }
+        }
+      },
+      "column2_title": {
+        "events": {
+          "event_title": {
+            "title": "str",
+            "description": "str",
+            "completed": "bool",
+            "date": {
+              "month": "str",
+              "day": "str"
+            },
+            "time": {
+              "hour": "str",
+              "minute": "str",
+              "ampm": "str"
+            },
+            "tags": [
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              },
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              }
+            ],
+            "starred": "bool",
+            "locked": "bool"
+          },
+          "event2_title": {
+            "title": "str",
+            "description": "str",
+            "completed": "bool",
+            "date": {
+              "month": "str",
+              "day": "str"
+            },
+            "time": {
+              "hour": "str",
+              "minute": "str",
+              "ampm": "str"
+            },
+            "tags": [
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              },
+              {
+                "tag": {
+                  "name": "str",
+                  "color": "str"
+                }
+              }
+            ],
+            "starred": "bool",
+            "locked": "bool"
+          }
+        }
+      }
+    }
+  }
+]
