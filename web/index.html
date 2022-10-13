@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="logic.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <title>Lotion</title>
+  </head>
+
+  <body>
+    <div class="master_container">
+      <div class="mac_title_bar">
+        <div class="buttons">
+          <div class="btn close-btn"></div>
+          <div class="btn min-btn"></div>
+          <div class="btn max-btn"></div>
+        </div>
+        <div class="title">Lotion</div>
+        <div class="theme_toggle_container">
+          <div class="theme_toggle_btn">
+            <svg class="moon_icon ti" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.65" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+            <svg class="sun_icon ti" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="12" cy="12" r="3.5"></circle>
+              <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="lotion_container">
+        <div class="topbar lc">
+          <div class="todo tb">Todo</div>
+
+          <div class="date_today"></div>
+
+          <div class="sort_container tb">
+            <div class="sort_text sci">Sort</div>
+            <svg class="sort_caret sci" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" /></svg>
+            <div class="sort_menu"></div>
+          </div>
+
+          <div class="searchbar_container tb">
+            <svg class="searchbar_icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.25" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            <input type="text" class="searchbar" placeholder="Search" />
+            <svg class="searchbar_x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+          </div>
+        </div>
+
+        <div class="columns_container lc">
+          <div class="columns"></div>
+        </div>
+      </div>
+
+      <div class="screen_blur"></div>
+
+      <div class="card_container" data-open="false" data-size="small">
+        <div class="card">
+          <div class="card_buttons">
+            <div class="cb_left cbs">
+              <div class="cb_size_toggle cbb">
+                <svg class="cb_expand_icon cbst" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" /></svg>
+                <svg class="cb_contract_icon cbst" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" /></svg>
+              </div>
+              <svg class="cb_previous_btn cbb" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"></path></svg>
+              <svg class="cb_next_btn cbb" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+            </div>
+            <div class="cb_right cbs">
+              <svg class="cb_favorite_btn cbb" data-starred="false" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.35" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+              <div class="cb_lock_toggle cbb" data-locked="false">
+                <svg class="cb_unlocked_icon cbst" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path></svg>
+                <svg class="cb_locked_icon cbst" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path></svg>
+              </div>
+              <svg class="cb_delete_btn cbb" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+            </div>
+          </div>
+          <div class="card_title" contenteditable="true">Card Title</div>
+          <div class="card_description" contenteditable="true">This is the really cool card description and it can often be very long but not now</div>
+          <div class="card_bottom">
+            <div class="card_date_time">
+              <div class="card_date cdt" data-open="false">
+                Date
+                <div class="cdm_container">
+                  <div class="cdtm_middle"></div>
+                  <div class="card_date_menu cdtm">
+                    <div class="month_selection cdm">
+                      <div class="ms s cdm_nul">Nul</div>
+                      <div class="ms s">Jan</div>
+                      <div class="ms s">Feb</div>
+                      <div class="ms s">Mar</div>
+                      <div class="ms s">Apr</div>
+                      <div class="ms s">May</div>
+                      <div class="ms s">Jun</div>
+                      <div class="ms s">Jul</div>
+                      <div class="ms s">Aug</div>
+                      <div class="ms s">Sep</div>
+                      <div class="ms s">Oct</div>
+                      <div class="ms s">Nov</div>
+                      <div class="ms s">Dec</div>
+                      <div class="ms s cdm_nul">Nul</div>
+                      <div class="ms s cdm_nul">Nul</div>
+                      <div class="ms s cdm_nul cdm_last">Nul</div>
+                    </div>
+                    <div class="date_selection cdm">
+                      <div class="ds s cdm_nul">Nl</div>
+                      <div class="ds s">1</div>
+                      <div class="ds s">2</div>
+                      <div class="ds s">3</div>
+                      <div class="ds s">4</div>
+                      <div class="ds s">5</div>
+                      <div class="ds s">6</div>
+                      <div class="ds s">7</div>
+                      <div class="ds s">8</div>
+                      <div class="ds s">9</div>
+                      <div class="ds s">10</div>
+                      <div class="ds s">11</div>
+                      <div class="ds s">12</div>
+                      <div class="ds s">13</div>
+                      <div class="ds s">14</div>
+                      <div class="ds s">15</div>
+                      <div class="ds s">16</div>
+                      <div class="ds s">17</div>
+                      <div class="ds s">18</div>
+                      <div class="ds s">19</div>
+                      <div class="ds s">20</div>
+                      <div class="ds s">21</div>
+                      <div class="ds s">22</div>
+                      <div class="ds s">23</div>
+                      <div class="ds s">24</div>
+                      <div class="ds s">25</div>
+                      <div class="ds s">26</div>
+                      <div class="ds s">27</div>
+                      <div class="ds s">28</div>
+                      <div class="ds s">29</div>
+                      <div class="ds s">30</div>
+                      <div class="ds s">31</div>
+                      <div class="ds s cdm_nul">Nl</div>
+                      <div class="ds s cdm_nul">Nl</div>
+                      <div class="ds s cdm_nul cdm_last">Nl</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card_time cdt" data-open="false">
+                Time
+                <div class="ctm_container">
+                  <div class="cttm_middle"></div>
+                  <div class="card_time_menu cttm">
+                    <div class="hour_selection ctm">
+                      <div class="hs s ctm_nul">Nul</div>
+                      <div class="hs s">1</div>
+                      <div class="hs s">2</div>
+                      <div class="hs s">3</div>
+                      <div class="hs s">4</div>
+                      <div class="hs s">5</div>
+                      <div class="hs s">6</div>
+                      <div class="hs s">7</div>
+                      <div class="hs s">8</div>
+                      <div class="hs s">9</div>
+                      <div class="hs s">10</div>
+                      <div class="hs s">11</div>
+                      <div class="hs s">12</div>
+                      <div class="hs s ctm_nul">Nul</div>
+                      <div class="hs s ctm_nul">Nul</div>
+                      <div class="hs s ctm_nul ctm_last">Nul</div>
+                    </div>
+                    <div class="colon_section ctm">
+                      <div class="cs s">:</div>
+                    </div>
+                    <div class="minute_selection ctm">
+                      <div class="mns s ctm_nul">Nl</div>
+                      <div class="mns s">00</div>
+                      <div class="mns s">05</div>
+                      <div class="mns s">10</div>
+                      <div class="mns s">15</div>
+                      <div class="mns s">20</div>
+                      <div class="mns s">25</div>
+                      <div class="mns s">30</div>
+                      <div class="mns s">35</div>
+                      <div class="mns s">40</div>
+                      <div class="mns s">45</div>
+                      <div class="mns s">50</div>
+                      <div class="mns s">55</div>
+                      <div class="mns s ctm_nul">Nl</div>
+                      <div class="mns s ctm_nul">Nl</div>
+                      <div class="mns s ctm_nul ctm_last">Nl</div>
+                    </div>
+                    <div class="am_section ampm ctm">
+                      <div class="am_btn aps s">AM</div>
+                    </div>
+                    <div class="pm_section ampm ctm">
+                      <div class="pm_btn aps s">PM</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card_tags_container">
+              <div class="card_tags">
+                <div class="tags"></div>
+              </div>
+              <svg class="add_tag_btn" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+            </div>
+          </div>
+          <div class="add_tag_container" data-open="false">
+            <input type="text" class="add_tag_input atc" placeholder="Tag Name" />
+            <div class="tag_colors atc">
+              <div class="color default">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color red">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color orange">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color yellow">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color green">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color teal">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color blue">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color violet">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div class="color pink">
+                <svg class="color_check" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+            </div>
+            <div class="tag_preview atc">
+              <div class="p_tag">
+                <div class="p_tag_name">Tag Name</div>
+              </div>
+            </div>
+            <div class="add_tag_buttons atc">
+              <div class="at_cancel atcb">Cancel</div>
+              <div class="at_create atcb">Create</div>
+            </div>
+          </div>
+          <div class="delete_card_confirm">
+            <div class="dcc_text dcc">Are you sure you want to delete this item?</div>
+            <div class="dcc_buttons dcc">
+              <div class="dcc_cancel dcc_btn">Cancel</div>
+              <div class="dcc_delete dcc_btn">Delete</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="error_message">
+      <svg id="em_icon" class="em" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.75" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <span id="em_txt" class="em">Error</span>
+    </div>
+
+    <input class="mi_input submi" type="text" placeholder="Title" data-open="false" />
+    <div class="mi_delete submi" data-open="false">
+      <div class="mi_text smi">Delete?</div>
+      <div class="mi_delete_btn smi">Delete</div>
+    </div>
+    <div class="mi_filter submi" data-open="false">
+      <div class="mi_container">
+        <div class="mif_date mif">
+          <div class="mi_text smi">Date</div>
+        </div>
+      </div>
+      <div class="mi_container">
+        <div class="mif_name mif">
+          <div class="mi_text smi">Name</div>
+        </div>
+      </div>
+      <div class="mi_container">
+        <div class="mif_favorite mif">
+          <div class="mi_text smi">Favorite</div>
+        </div>
+      </div>
+      <div class="mi_container">
+        <div class="mif_complete mif">
+          <div class="mi_text smi">Complete</div>
+        </div>
+      </div>
+      <div class="mi_container">
+        <div class="mif_incomplete mif">
+          <div class="mi_text smi">Incomplete</div>
+        </div>
+      </div>
+    </div>
+    <div class="add_column" data-open="false">
+      <svg class="add_column_icon ac" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+      <div class="add_column_text ac">New Column</div>
+    </div>
+
+    <div class="tag_circle_tooltip"></div>
+  </body>
+</html>
