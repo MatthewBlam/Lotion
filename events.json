@@ -1,0 +1,280 @@
+{
+  "columns": {
+    "Homework": {
+      "filter": "Date",
+      "events": {
+        "Study Physics (Princeton)": {
+          "title": "Study Physics (Princeton)",
+          "description": "new stuff - Newton's Law",
+          "completed": false,
+          "date": {
+            "month": "Date",
+            "day": ""
+          },
+          "time": {
+            "hour": "Time",
+            "minute": "",
+            "ampm": ""
+          },
+          "tags": {
+            "AP Physics": {
+              "name": "AP Physics",
+              "color": "violet"
+            },
+            "URGENT": {
+              "name": "URGENT",
+              "color": "red"
+            }
+          },
+          "starred": true,
+          "locked": false
+        },
+        "Physics Lab": {
+          "title": "Physics Lab",
+          "description": "google classroom individual and group",
+          "completed": false,
+          "date": {
+            "month": "Oct",
+            "day": "30"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {
+            "AP Physics": {
+              "name": "AP Physics",
+              "color": "yellow"
+            },
+            "URGENT": {
+              "name": "URGENT",
+              "color": "red"
+            }
+          },
+          "starred": false,
+          "locked": false
+        },
+        "Lang Vocab Test #7": {
+          "title": "Lang Vocab Test #7",
+          "description": "monday",
+          "completed": false,
+          "date": {
+            "month": "Oct",
+            "day": "31"
+          },
+          "time": {
+            "hour": "Time",
+            "minute": "",
+            "ampm": ""
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "Delta Math": {
+          "title": "Delta Math",
+          "description": "Lesson 14 Practice",
+          "completed": false,
+          "date": {
+            "month": "Oct",
+            "day": "28"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {
+            "AP Calc": {
+              "name": "AP Calc",
+              "color": "blue"
+            }
+          },
+          "starred": false,
+          "locked": false
+        },
+        "Physics FRQ": {
+          "title": "Physics FRQ",
+          "description": "Due next class",
+          "completed": false,
+          "date": {
+            "month": "Nul",
+            "day": "Nl"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        }
+      }
+    },
+    "APUSH": {
+      "filter": "Date",
+      "events": {
+        "A10": {
+          "title": "A10",
+          "description": "due wednesday",
+          "completed": true,
+          "date": {
+            "month": "Oct",
+            "day": "19"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "A11": {
+          "title": "A11",
+          "description": "due friday",
+          "completed": true,
+          "date": {
+            "month": "Oct",
+            "day": "21"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "A12": {
+          "title": "A12",
+          "description": "due tuesday",
+          "completed": false,
+          "date": {
+            "month": "Oct",
+            "day": "25"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "A13": {
+          "title": "A13",
+          "description": "due thrusday",
+          "completed": false,
+          "date": {
+            "month": "Oct",
+            "day": "27"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "A14": {
+          "title": "A14",
+          "description": "due monday",
+          "completed": false,
+          "date": {
+            "month": "Oct",
+            "day": "31"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "A15": {
+          "title": "A15",
+          "description": "due wednesday",
+          "completed": false,
+          "date": {
+            "month": "Nov",
+            "day": "2"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "A16": {
+          "title": "A16",
+          "description": "due tuesday",
+          "completed": false,
+          "date": {
+            "month": "Nov",
+            "day": "8"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        }
+      }
+    },
+    "Stuff": {
+      "filter": "Incomplete",
+      "events": {
+        "Order Perc Mallets": {
+          "title": "Order Perc Mallets",
+          "description": "",
+          "completed": true,
+          "date": {
+            "month": "Nul",
+            "day": "Nl"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        },
+        "Comp Sci VOCAB": {
+          "title": "Comp Sci VOCAB",
+          "description": "",
+          "completed": false,
+          "date": {
+            "month": "Date",
+            "day": ""
+          },
+          "time": {
+            "hour": "Time",
+            "minute": "",
+            "ampm": ""
+          },
+          "tags": {},
+          "starred": false,
+          "locked": false
+        }
+      }
+    }
+  }
+}

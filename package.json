@@ -1,0 +1,17 @@
+{
+  "name": "Lotion",
+  "productName": "Lotion",
+  "version": "1.0.0",
+  "description": "Task organizer for messy kids",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": {
+    "name": "Matthew Blam"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.1.0"
+  }
+}
