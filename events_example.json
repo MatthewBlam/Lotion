@@ -1,0 +1,45 @@
+[
+  {
+    "general": {
+      "sort": ["str", "str"],
+      "cardSize": "str"
+    }
+  },
+  {
+    "columns": {
+      "column_title": {
+        "index": "int",
+        "filter": "str",
+        "events": {
+          "event_title": {
+            "title": "str",
+            "description": "str",
+            "completed": "bool",
+            "date": {
+              "month": "str",
+              "day": "str"
+            },
+            "time": {
+              "hour": "str",
+              "minute": "str",
+              "ampm": "str"
+            },
+            "tags": {
+              "tag": {
+                "name": "str",
+                "color": "str"
+              },
+
+              "tag2": {
+                "name": "str",
+                "color": "str"
+              }
+            },
+            "starred": "bool",
+            "locked": "bool"
+          }
+        }
+      }
+    }
+  }
+]

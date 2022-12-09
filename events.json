@@ -1,0 +1,106 @@
+{
+  "columns": {
+    "Homework": {
+      "index": 0,
+      "filter": "Tag",
+      "events": {
+        "Math Lesson 34/35": {
+          "title": "Math Lesson 34/35",
+          "description": "",
+          "completed": false,
+          "date": {
+            "month": "Dec",
+            "day": "9"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {
+            "AP Calc": {
+              "name": "AP Calc",
+              "color": "blue"
+            }
+          },
+          "starred": false,
+          "locked": false
+        },
+        "Physics Exam": {
+          "title": "Physics Exam",
+          "description": "Circular Motion and Gravitation",
+          "completed": false,
+          "date": {
+            "month": "Dec",
+            "day": "14"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {
+            "AP Physics": {
+              "name": "AP Physics",
+              "color": "pink"
+            },
+            "Important": {
+              "name": "Important",
+              "color": "red"
+            }
+          },
+          "starred": false,
+          "locked": false
+        },
+        "Physics Lab #2": {
+          "title": "Physics Lab #2",
+          "description": "",
+          "completed": false,
+          "date": {
+            "month": "Dec",
+            "day": "14"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {
+            "AP Physics": {
+              "name": "AP Physics",
+              "color": "pink"
+            }
+          },
+          "starred": false,
+          "locked": false
+        },
+        "APUSH HW": {
+          "title": "APUSH HW",
+          "description": "DO IT",
+          "completed": false,
+          "date": {
+            "month": "Nul",
+            "day": "Nl"
+          },
+          "time": {
+            "hour": "Nul",
+            "minute": "Nl",
+            "ampm": "AM"
+          },
+          "tags": {
+            "URGENT": {
+              "name": "URGENT",
+              "color": "red"
+            }
+          },
+          "starred": false,
+          "locked": false
+        }
+      }
+    },
+    "Misc": {
+      "filter": "Date",
+      "events": {}
+    }
+  }
+}
