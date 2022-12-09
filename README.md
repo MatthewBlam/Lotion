@@ -1,2 +1,2 @@
 # Lotion
-A simple and intuitive app to manage your tasks and stay organized. Lotion, you should use it everyday.
+A simple and intuitive app to manage your tasks and stay organized. You should be using Lotion every day.
