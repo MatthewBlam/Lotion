@@ -168,7 +168,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Matthew Blam - blammatthew@gmail.com
 
-Project Link: [https://github.com/MatthewBlam/Dexcom-4-Desktop](https://github.com/MatthewBlam/Lotion)
+Project Link: [https://github.com/MatthewBlam/Lotion](https://github.com/MatthewBlam/Lotion)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
