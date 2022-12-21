@@ -62,8 +62,6 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-<p align="right"><a href="#readme-top">back to top</a></p>
-
 
 
 <!-- GETTING STARTED -->
@@ -71,16 +69,12 @@
 
 You can download Lotion here for Mac, Windows, and Linux. Alternatively, if you are familiar with Electron and wish to compile Lotion yourself, clone this repo and run Lotion as a project or use electron-builder to compile the binaries.
 
-<p align="right"><a href="#readme-top">back to top</a></p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 For a walk-through of how to use the program and it's features, please watch <a href="https://www.youtube.com/watch?v=TLPhCnJD4KI">this video</a>.
-
-<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
@@ -91,8 +85,6 @@ For a walk-through of how to use the program and it's features, please watch <a 
 - [ ] Implement suggestions & fix any bugs
 
 See the [open issues](https://github.com/MatthewBlam/Lotion/issues) for a full list of proposed features (and known issues).
-
-<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
