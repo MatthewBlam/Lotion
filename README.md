@@ -15,7 +15,7 @@
     Organize your tasks and calendar events in a streamlined, centralized, and customizable fashion to meet productivity needs and goals. You should be using Lotion every day.
     <br />
     <br />
-    <a href="[https://www.youtube.com/watch?v=TLPhCnJD4KI](https://github.com/MatthewBlam/Lotion/issues)">Download</a>
+    <a href="https://github.com/MatthewBlam/Lotion/issues">Download</a>
     ·
     <a href="https://www.youtube.com/watch?v=cqKX93PYYq4">View Demo</a>
     ·
