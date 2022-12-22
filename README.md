@@ -53,6 +53,7 @@
 ## About The Project
 
 [![Lotion Screen Shot][product-screenshot]](https://github.com/MatthewBlam/Lotion)
+[![Lotion Screen Shot (Dark)][product-screenshot-dark]](https://github.com/MatthewBlam/Lotion)
 
 ### Built With
 
@@ -117,4 +118,5 @@ Project Link: [https://github.com/MatthewBlam/Lotion](https://github.com/Matthew
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: images/Lotion%20Screenshot.png
+[product-screenshot-dark]: images/Lotion%20Screenshot%20Dark.png
 [logo]: logo/Lotion.png
