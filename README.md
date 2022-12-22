@@ -69,7 +69,7 @@ You can download Lotion here for Mac, Windows, and Linux. Alternatively, if you 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-For a walk-through of how to use the program and it's features, please watch <a href="[https://www.youtube.com/watch?v=TLPhCnJD4KI](https://www.youtube.com/watch?v=cqKX93PYYq4)">this video</a>.
+For a walk-through of how to use the program and it's features, please watch <a href="https://www.youtube.com/watch?v=cqKX93PYYq4">this video</a>.
 
 
 
