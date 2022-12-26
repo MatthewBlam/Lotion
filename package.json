@@ -1,0 +1,50 @@
+{
+  "name": "Lotion",
+  "productName": "Lotion",
+  "version": "1.0.0",
+  "description": "Task organizer for optimal productivy",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist-cross": "electron-builder -mwl"
+  },
+  "build": {
+    "extraResources": [
+      "./extraResources/**"
+    ],
+    "appId": "com.mattblam.lotion",
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "logo/Lotion.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "logo/Lotion.ico",
+      "uninstallerIcon": "logo/Lotion.ico",
+      "uninstallDisplayName": "Lotion",
+      "deleteAppDataOnUninstall": true
+    },
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "logo/Lotion.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "logo/Lotion.png"
+    }
+  },
+  "author": {
+    "name": "Matthew Blam"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.3.8",
+    "electron-builder": "^23.6.0"
+  }
+}

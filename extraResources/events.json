@@ -1,0 +1,9 @@
+{
+  "columns": {
+    "Todo": {
+      "index": 0,
+      "filter": "Date",
+      "events": {}
+    }
+  }
+}
