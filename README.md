@@ -62,7 +62,9 @@
 <!-- GETTING STARTED -->
 ## Run Lotion
 
-You can <a href="https://github.com/MatthewBlam/Lotion/releases">download Lotion</a> for Mac and Windows. Alternatively, if you are familiar with Electron and wish to compile Lotion yourself, clone this repo and run Lotion as a project or use electron-builder to compile the binaries. **NOTE** that if you elect to download Lotion instead of compiling it, your computer operating system or antivirus may flag Lotion as you are downloading it from the internet.
+You can <a href="https://github.com/MatthewBlam/Lotion/releases">download Lotion</a> for Mac and Windows. Alternatively, if you are familiar with Electron and wish to compile Lotion yourself, clone this repo and run Lotion as a project or use electron-builder to compile the binaries.
+<br />
+**NOTE** that if you elect to download Lotion instead of compiling it, your computer operating system or antivirus may flag Lotion as you are downloading it from the internet.
 
 
 
