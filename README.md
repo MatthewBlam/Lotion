@@ -15,7 +15,7 @@
     Organize your tasks and calendar events in a streamlined, centralized, and customizable fashion to meet productivity needs and goals. You should be using Lotion every day.
     <br />
     <br />
-    <a href="https://github.com/MatthewBlam/Lotion/issues">Download</a>
+    <a href="https://github.com/MatthewBlam/Lotion/releases">Download</a>
     ·
     <a href="https://www.youtube.com/watch?v=cqKX93PYYq4">View Demo</a>
     ·
@@ -62,7 +62,7 @@
 <!-- GETTING STARTED -->
 ## Run Lotion
 
-You can download Lotion here for Mac, Windows, and Linux. Alternatively, if you are familiar with Electron and wish to compile Lotion yourself, clone this repo and run Lotion as a project or use electron-builder to compile the binaries.
+You can <a href"https://github.com/MatthewBlam/Lotion/releases">download Lotion</a> for Mac, Windows, and Linux. Alternatively, if you are familiar with Electron and wish to compile Lotion yourself, clone this repo and run Lotion as a project or use electron-builder to compile the binaries.
 
 
 
