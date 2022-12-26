@@ -62,7 +62,7 @@
 <!-- GETTING STARTED -->
 ## Run Lotion
 
-You can <a href="https://github.com/MatthewBlam/Lotion/releases">download Lotion</a> for Mac, Windows, and Linux. Alternatively, if you are familiar with Electron and wish to compile Lotion yourself, clone this repo and run Lotion as a project or use electron-builder to compile the binaries.
+You can <a href="https://github.com/MatthewBlam/Lotion/releases">download Lotion</a> for Mac and Windows. Alternatively, if you are familiar with Electron and wish to compile Lotion yourself, clone this repo and run Lotion as a project or use electron-builder to compile the binaries.
 
 
 
@@ -76,6 +76,7 @@ For a walk-through of how to use the program and it's features, please watch <a 
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Linux build
 - [ ] Integrate services such as Google Calendar, Google Classroom, etc.
 - [ ] Implement suggestions & fix any bugs
 
